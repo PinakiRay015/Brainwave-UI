@@ -713,24 +713,24 @@
   }
 }
 
-@media (max-width: 1087px) {
+@media (max-width: 1088px) {
 
-    .navbar .nav-logo i{
+    .navbar .nav-logo i {
         display: block;
-    }
+      }
   #check:checked ~ .mobile-nav {
     top: 80px;
     transition: 0.2s all ease-in-out;
+  }
+
+  #check:checked ~ #open{
+    display: none;
   }
 
   #check:not(:checked) ~ .mobile-nav {
     top: -380px;
     transition: 0.2s all ease-in-out;
   }
-
-  /* .mobile-nav{
-        display: flex;
-    } */
 
   .nav-links {
     display: none;
