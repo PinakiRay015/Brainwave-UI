@@ -751,3 +751,27 @@
   }
 
 }
+
+@media (min-width: 800px) and (max-width: 1087px){
+    
+    .Albino-content h1{
+        font-size: 23px;
+    }
+
+    .Albino-content p{
+        font-size: 12px;
+    }
+
+    .Albino-content button{
+        font-size: 14px;
+    }
+
+    .service-box h4{
+        font-size: 16px;
+    }
+
+    .service-box p{
+        font-size: 10px;
+    }
+
+}
