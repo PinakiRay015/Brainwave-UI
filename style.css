@@ -479,7 +479,6 @@
 }
 
 .pp-card {
-  width: 350px;
   height: 440px;
   background-color: #ffffff;
   display: flex;
@@ -489,6 +488,7 @@
   gap: 40px;
   padding: 10px;
   border-radius: 5px;
+  flex: 1 0 350px;
 }
 
 .pp-amount {
@@ -735,4 +735,19 @@
   .nav-links {
     display: none;
   }
+
+  .pp-cards{
+    flex-wrap: wrap;
+  }
+
+  .project-scenerio{
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .project-steps{
+    border: 1px solid ;
+    width: 100%;
+  }
+
 }
