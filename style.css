@@ -746,13 +746,55 @@
   }
 
   .project-steps{
-    border: 1px solid ;
+    width: 100%;
+  }
+
+  .build-better {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 240px;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .bb-content{
+    width: 100%;
+  }
+
+  .bb-buttons{
+    width: 100%;
+  }
+
+  .bb-buttons button{
     width: 100%;
   }
 
 }
 
-@media (min-width: 800px) and (max-width: 1087px){
+@media (max-width: 940px){
+  .footer{
+    flex-wrap: wrap;
+  }
+
+  .footer-main{
+    width: 100%;
+    padding: 0px 88px;
+    padding-bottom: 40px;
+  }
+
+  .footer-main span{
+    display: inline;
+  }
+}
+
+@media (min-width: 792px) and (max-width: 1087px){
+
+  .hero-image img {
+    width: 700px;
+    height: 461px;
+}
     
     .Albino-content h1{
         font-size: 23px;
@@ -773,5 +815,117 @@
     .service-box p{
         font-size: 10px;
     }
+
+    .growth-box h1{
+      font-size: 30px;
+    }
+
+    .growth-box p{
+      font-size: 9px;
+    }
+
+    .faq-box{
+      padding: 0vh 5vw;
+    }
+
+    .faq-1 h3{
+      font-size: 16px;
+    }
+
+}
+
+@media (min-width: 500px) and (max-width: 791px){
+  .hero-image img {
+    width: 617px;
+    height: 419px;
+}
+  .hero-section h1{
+    font-size: 36px;
+  }
+
+  .hero-section p{
+    font-size: 15px;
+  }
+
+  .hero-buttons button{
+    width: 161px;
+    height: 41px;
+    font-size: 12px;
+  }
+
+  .service-box img {
+    width: 24px;
+    height: 20px;
+}
+
+.service-box h4{
+  font-size: 13px;
+}
+
+.service-box p{
+  font-size: 9px;
+}
+
+#phone {
+  width: 13px;
+  height: 23px;
+}
+
+.Albino-content h1{
+  font-size: 19px;
+}
+
+.Albino-content p{
+  font-size: 10px;
+}
+
+.Albino-content button{
+  font-size: 11px;
+}
+
+.Albino-image img{
+  height: 342px;
+}
+
+.growth-box h1{
+  font-size: 20px;
+}
+
+.growth-box p{
+  font-size: 8px;
+}
+
+.project-section{
+  gap: 20px;
+}
+
+.project-content h1{
+  font-size: 25px;
+}
+
+.project-content p{
+  font-size: 10px;
+}
+
+.project-image img{
+  height: 270px;
+}
+
+.bio h4{
+  font-size: 18px;
+}
+
+.bio p{
+  font-size: 11px;
+}
+
+.seq{
+  width: 30px;
+  height: 30px;
+}
+
+.seq span{
+  font-size: 15px;
+}
 
 }
